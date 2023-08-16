@@ -20,7 +20,7 @@ void solve(){
 }
 
 int32_t main(){
-	ios::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+	ios::sync_with_stdio(false); cin.tie(nullptr);
 	int TestCases; cin>>TestCases;
 	while(TestCases--){
 		solve();
