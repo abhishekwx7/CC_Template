@@ -12,7 +12,7 @@ using max_heap = priority_queue<int>;
 
 const int MOD = 1e9 + 7;
 
-void solve(){
+void Solve(){
    int n; cin>>n;
    vector<int> a(n);   
    for(auto i = 0; i < n; i++) cin>>a[i];
@@ -23,6 +23,6 @@ int32_t main(){
 	ios::sync_with_stdio(false); cin.tie(nullptr);
 	int TestCases; cin>>TestCases;
 	while(TestCases--){
-		solve();
+		Solve();
 	}
 }
